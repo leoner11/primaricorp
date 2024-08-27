@@ -12,8 +12,8 @@
 	<div class="hero-overlay bg-opacity-70" />
 	<div class="hero-content text-neutral-content">
 		<div class="-z-[-1] drop-shadow-lg text-center lg:-translate-y-20">
-			<div class="mb-5 text-7xl font-bold">In Partnership, We Trust</div>
-			<div class="mb-5 max-w-4xl">
+			<div class="mb-5 text-6xl font-bold">In Partnership, We Trust</div>
+			<div class="mb-5 max-w-3xl">
 				We are a specialized agent and trading company with a strong focus on the global supply and
 				distribution of minerals, oxides, chemicals, and rubber hoses based in Indonesia. Our
 				extensive portfolio encompasses a wide range of high-quality products sourced from reputable

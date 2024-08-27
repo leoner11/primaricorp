@@ -88,7 +88,7 @@
 
 <div class="hero min-h-full bg-base-200 rounded-lg">
 	<div class="hero-content flex-col lg:flex-row-reverse xl:gap-10">
-		<img alt="hero" src="/magnetite.jpeg" class="h-80 max-w-lg object-cover rounded-lg shadow-lg" />
+		<img alt="hero" src="/magnetite.jpeg" class="h-60 max-w-s object-cover rounded-lg shadow-lg" />
 		<div class="w-full">
 			<h1 class="text-3xl font-bold">Magnetite</h1>
 			<p class="py-6">
