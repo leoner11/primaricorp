@@ -1,7 +1,7 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
 
-/** @type {import('vite').UserConfig} */
-const config = {
+export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
 		headers: {
@@ -9,6 +9,4 @@ const config = {
 			'X-Content-Type-Options': 'nosniff'
 		}
 	}
-};
-
-export default config;
+});
