@@ -1,41 +1,28 @@
-<script lang="ts">
-	import { enhance, type SubmitFunction } from '$app/forms';
-	import { page } from '$app/stores';
-	import '$lib/app.css';
-	import { themes } from '$lib/utils/themes';
+<!-- <script>
+	document.documentElement.setAttribute('data-theme', 'sunset');
+</script> -->
 
-	const submitUpdateTheme: SubmitFunction = ({ action }) => {
-		const theme = action.searchParams.get('theme');
+<script>
+	import { onMount } from 'svelte';
 
-		if (theme) {
-			document.documentElement.setAttribute('data-theme', theme);
-		}
-	};
+	onMount(() => {
+		document.documentElement.setAttribute('data-theme', 'bumblebee');
+	});
 </script>
 
-<div class="bg-base-100 sticky top-0 shadow-lg z-40">
+<div class="bg-base-300 top-0 shadow-lg z-40">
 	<div class="flex items-center justify-between p-2 w-full max-w-4xl mx-auto">
-		<div class="">
-			<a href="/" class="font-bold text-primary text-xl">Sveltekit</a>
+		<div class="mb-5" style="max-width: 250px;">
+			<a href="/">
+				<img src="/primaricorp.png" alt="primari corpora logo" />
+			</a>
 		</div>
 
-		<div class="">
-			<div class="dropdown dropdown-hover dropdown-end">
-				<!-- svelte-ignore a11y-label-has-associated-control -->
-				<label class="btn">Theme</label>
-				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-				<ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 h-96 overflow-scroll">
-					<form method="POST" use:enhance={submitUpdateTheme}>
-						{#each themes as theme}
-							<li>
-								<button formaction="/?/setTheme&theme={theme}&redirectTo={$page.url.pathname}"
-									>{theme}</button
-								>
-							</li>
-						{/each}
-					</form>
-				</ul>
-			</div>
+		<div class="flex flex-wrap space-x-4 sm:space-x-6 md:space-x-8">
+			<a href="/" class="block mb-2 sm:mb-0 font-bold">Home</a>
+			<a href="#about-us" class="block mb-2 sm:mb-0 font-bold">About Us</a>
+			<a href="#our-partners" class="block mb-2 sm:mb-0 font-bold">Our Partners</a>
+			<a href="#contact-us" class="block mb-2 sm:mb-0 font-bold">Contact Us</a>
 		</div>
 	</div>
 </div>
