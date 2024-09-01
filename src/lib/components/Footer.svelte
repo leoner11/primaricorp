@@ -1,8 +1,8 @@
 <footer class="footer footer-center p-10 bg-yellow-400 text-primary-content">
 	<div>
 		<p class="font-bold">
-			PT Primari Corpora <br />Jl. Benyamin Suaeb Jl. Casa No.170, RT.13/RW.6, Kb. Kosong, Kec.
-			Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10630<br />admin@primaricorp.com
+			PT Primari Corpora <br />Citra Office Tower, 2nd Floor, Unit A2, Jl Benyamin Suaeb Kav A6,
+			Kemayoran,Jakarta Pusat 10630<br />admin@primaricorp.com
 		</p>
 		<p>Copyright © 2024 - All rights reserved</p>
 	</div>

@@ -9,7 +9,7 @@
 	<div class="flex flex-col lg:flex-row justify-center gap-5 xl:gap-10">
 		<div class="border rounded-lg shadow-xl">
 			<div class="p-7">
-				<img src="/Group 11(3).png" alt="pictures of partners" />
+				<img src="/Group 11(4).png" alt="pictures of partners" />
 			</div>
 		</div>
 	</div>

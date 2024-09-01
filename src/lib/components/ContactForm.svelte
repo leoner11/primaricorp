@@ -46,7 +46,7 @@
 						<div
 							class="w-full p-2.5 bg-transparent border-b border-gray-500 text-white placeholder-gray-500 focus:border-white focus:outline-none"
 						>
-							Email: admin@primaricorp.com
+							Email: admin_pc@primaricorp.com
 						</div>
 					</div>
 
