@@ -42,7 +42,9 @@ export const POST: RequestHandler = async ({ request }) => {
     // Send email using Resend
     const result = await resend.emails.send({
       from: 'Primari Corpora Website <onboarding@resend.dev>',
-      to: ['davidson@primaricorp.com'], // Your emails here
+      to: ['davidson@primaricorp.com'
+        
+      ], // Your emails here
       subject: `New Contact Form Inquiry from ${name}`,
       html: emailHtml,
       // replyTo: email
